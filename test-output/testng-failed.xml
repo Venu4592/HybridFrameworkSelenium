@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TutorialsNinja_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testng.listeners.hybridframework.Listenersclass"/>
+  </listeners>
+  <test thread-count="5" name="Test_TutorialsNinja(failed)">
+    <classes>
+      <class name="com.venu.Test.Testcases.LoginTest">
+        <methods>
+          <include name="StartingTheTest"/>
+          <include name="VerifylogintoApplicationvalidcredentials" invocation-numbers="1 2"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- com.venu.Test.Testcases.LoginTest -->
+    </classes>
+  </test> <!-- Test_TutorialsNinja(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja_Suite] -->

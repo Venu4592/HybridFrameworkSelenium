@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TutorialsNinja_Suite">
+	<listeners>
+		<listener class-name="com.testng.listeners.hybridframework.Listenersclass"/>
+	</listeners>
+	<test name="Test_TutorialsNinja">
+		<classes>
+			<class name="com.venu.Test.Testcases.LoginTest" />
+		</classes>
+	</test>
+</suite>
